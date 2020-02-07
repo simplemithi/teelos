@@ -1,0 +1,24 @@
+#Password Protect Site
+#AuthName "Section Name"
+#AuthType Basic
+#AuthUserFile /home/public_html/path/.htpasswds
+#Require valid-user
+
+#Allow RewriteRules
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+#Hide .php extension
+RewriteRule ^(.*)$ $1.php
+
+#RewriteRules
+#RewriteRule ^test1-(.*)$ /temp.php?id=$1&%{QUERY_STRING} [L]
+RewriteRule ^$ /index.php [L]
+
+#Redirects
+#Redirect 301 /old-url.html /new-url.html
+#Redirect 301 /index.php /home.php
+
+#Custom Error Pages
+ErrorDocument 404 /home.php
+

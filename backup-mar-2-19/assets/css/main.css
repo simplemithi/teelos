@@ -1,0 +1,151 @@
+<style>
+	/*START - Header*/
+	.header_div {
+		margin-bottom: 5px;
+		border-bottom: 1px solid #e5e5e5;
+	}
+	.header_div img {
+		height: 150px;
+		width: 100%;
+	}
+
+	.header_logo {
+		height:50px;
+		width:100px;
+		padding:2px;
+		margin-left:0px;
+	}
+
+	.navbar {
+		background: #fff;
+		border-color: #fff;
+	}
+
+	.navbar-nav > li.active > a {
+	    background: #fff !important;
+	    border-bottom: 5px solid #bbda45 !important;
+	    color: #bbda45 !important;#
+	}
+
+	.navbar-nav > li > a {
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    color: #000 !important;
+	}
+	/*END - Header*/
+
+	/*START - Footer*/
+	.footer_div {
+		padding: 30px;
+		margin-top: 5px;
+		background: #fff;
+		color: #b5b5b5;
+		/*position: fixed;
+    	bottom: 0;*/
+    	border-top: 1px solid #e5e5e5;
+	}
+
+	.footer_div h5 {
+		padding-bottom: 10px;
+		font-weight: bold;
+	    /*text-transform: uppercase;*/
+	    color: #999;
+	}
+
+	.menu_links a {
+		color: #b5b5b5;
+	}
+
+	.menu_links a:hover {
+		text-decoration: none;
+	}
+
+	.subscribe_form div {
+		padding: 5px;
+	}
+
+	.fa {
+		font-size: 30px;
+		width: 50px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 2px;
+	}
+
+	.fa:hover {
+		opacity: 0.7;
+	}
+	/*END - Footer*/
+	
+	/*START - Contaciner for all pages*/
+	.container {
+		font-family: Georgia !important;
+		/*margin-top: 70px;
+		margin-bottom: 70px;*/
+	}
+	/*END - Contaciner for all pages*/
+
+	/*START - Home*/
+	.home_top_right img {
+		/*height: 100%;*/
+		width: 100%
+	}
+
+	.home_bottom_1,.home_bottom_2 {
+		padding: 20px;
+	}
+	/*END - Home*/
+
+	/*START - Products*/
+	.prod {
+		margin: 0px;
+	}
+
+	.prod_inner {
+		border: 1px solid #e5e5e5;
+		border-radius: 5px;
+		margin: 2px;
+		padding: 5px;
+	}
+
+	.prod img {
+		width: 100%;
+		padding: 5px;
+	}
+
+	.prod_detail {
+		padding: 1px;
+	}
+
+	.prod_detail_wrap {
+		background: #bbda45;
+		border-radius: 3px;
+	}
+
+	.prod .prod_name {
+		margin-top: 5px;
+		padding: 5px;
+		text-align: left;
+		/*background: rgb(26, 128, 105);*/
+		/*background: #bbda45;*/
+		color: #fff;
+		width: 100%;
+		border-radius: 4px;
+	}
+	.read_more {
+		margin-top: 5px;
+		border-color: white !important;
+		/*margin-bottom: 20px;*/
+	}
+	/*END - Products*/
+
+	/*START - Contacus Us*/
+	.contact_form div {
+		padding: 5px;
+	}
+
+	.contact_submit_btn {
+		width: 100%;
+	}
+	/*END - Contacus Us*/
+</style>
